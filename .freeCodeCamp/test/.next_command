@@ -117,3 +117,4 @@ clear
 ./salon.sh
 clear
 ./salon.sh
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
